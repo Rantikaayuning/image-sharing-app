@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { getPictureDetail } from "../redux/actions/HomepageAction";
 import { useDispatch, useSelector } from "react-redux";
 import { Card } from "../components/Card";
@@ -25,6 +25,13 @@ const PictureDetail = () => {
 
   return (      
     <div className='detail-container'>
+      <div className="back-button">
+        <Link to="/">
+          <h2>
+            <i class="bi bi-arrow-left-circle"></i>
+          </h2>
+        </Link>
+      </div>
       <div className="col-sm-6">
         <Card 
           cardPhoto={pictureDetail && pictureDetail.thumbnailUrl}

@@ -14,7 +14,7 @@
 
 .detail-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .detail-container .card {
@@ -24,5 +24,18 @@
 }
 
 .detail-container .card i:hover {
+  cursor: pointer;
+}
+
+.detail-container .back-button{
+  padding: 20% 12%;
+}
+
+.detail-container .back-button i{
+  color: black;
+}
+
+.detail-container .back-button i:hover{
+  color: lightgray;
   cursor: pointer;
 }
