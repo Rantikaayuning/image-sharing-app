@@ -1,0 +1,2 @@
+export const GET_HOMEPAGE = "GET_HOMEPAGE";
+export const GET_PICTURE_DETAIL = "GET_PICTURE_DETAIL";

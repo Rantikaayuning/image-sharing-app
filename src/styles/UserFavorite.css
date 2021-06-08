@@ -1,0 +1,26 @@
+.favorite-container {
+  display: flex;
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.favorite-container h5 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: palevioletred;
+}
+
+.favorite-container .container-md {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.favorite-container .container-md .card {
+  margin: 5%;
+}
+
+.favorite-container .card i:hover {
+  cursor: pointer;
+  color: rgb(230, 62, 62);
+}
